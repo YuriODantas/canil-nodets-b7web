@@ -4,12 +4,12 @@
   "description": "Projeto feito em Node com Typescript do curso B7web FullStack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon -e ts,json,mustache src/server.ts"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YuriODantas/canil-nodets-b7web.git",
-    "start-dev": "nodemon -e ts,json,mustache src/server.ts"
+    "url": "git+https://github.com/YuriODantas/canil-nodets-b7web.git"
   },
   "author": "",
   "license": "ISC",
